@@ -1,12 +1,11 @@
 # lab2_test_result
 
-bigstack:
-
-no output, should trigger trap memory. 
-My TracePrintf relevent output (addr is actually vpn):
-Kernel   trap_memory_handler TRAP_MEMORY_MAPERR
-Kernel   trap_memory_handler TRAP_MEMORY_MAPERR: addr 501 is a valid brk addr
-Kernel   trap_memory_handler TRAP_MEMORY_MAPERR: brk 16
+bigstack:  
+no output, should trigger trap memory.  
+My TracePrintf relevent output (addr is actually vpn):  
+Kernel   trap_memory_handler TRAP_MEMORY_MAPERR  
+Kernel   trap_memory_handler TRAP_MEMORY_MAPERR: addr 501 is a valid brk addr  
+Kernel   trap_memory_handler TRAP_MEMORY_MAPERR: brk 16  
 
 blowstack:
 Input 50, got 50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 
