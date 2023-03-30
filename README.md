@@ -1,6 +1,7 @@
 # lab2_test_result
 
 bigstack:
+
 no output, should trigger trap memory. 
 My TracePrintf relevent output (addr is actually vpn):
 Kernel   trap_memory_handler TRAP_MEMORY_MAPERR
